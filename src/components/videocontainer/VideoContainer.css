@@ -1,0 +1,39 @@
+.ads-container {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.ads-thumbnail {
+  width: 40%;
+  height: auto;
+  max-height: 200px;
+  padding-right: 25px;
+  object-fit: cover;
+}
+.ads-sales-thumbnail{
+  width: 60%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(42vh, 1fr));
+  grid-auto-rows: min-content;
+  grid-gap: 25px;
+  width: 100%;
+  background-color: #f9f9f9;
+  overflow: auto;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-thumbnail {
+  width: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}

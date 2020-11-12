@@ -1,0 +1,15 @@
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+li div{
+  display: block;
+}
+
+.nav-button:focus{
+  color: #F24027;
+}
+.nav-button:hover{
+  background-color: #e6e6e6 !important;
+}

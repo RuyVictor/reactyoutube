@@ -1,0 +1,50 @@
+.App-header {
+  background-color: white;
+  min-height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 13px;
+  color: white;
+}
+
+.App-logo {
+  height: 18px;
+  pointer-events: none;
+}
+.header-search{
+  display: flex;
+  width: 100%;
+  margin: 0 90px;
+}
+
+.header-icon-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.nav-textfield {
+  width: 100%;
+}
+
+.nav-button-search {
+  width: 70px;
+  background-color: #f8f8f8 !important;
+}
+
+.nav-button-login {
+}
+
+.icon-button-search{
+  display: none;
+}
+
+@media only screen and (max-width: 840px) {
+    .header-search {
+      display: none;
+    }
+    .icon-button-search{
+      display: inherit;
+    }
+}
