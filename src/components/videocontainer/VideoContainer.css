@@ -1,3 +1,7 @@
+.all-container {
+  background-color: #f5f5f5;
+}
+
 .ads-container {
   display: flex;
   padding-bottom: 25px;
@@ -7,7 +11,6 @@
   width: 40%;
   height: auto;
   max-height: 200px;
-  padding-right: 25px;
   object-fit: cover;
 }
 .ads-sales-thumbnail{
@@ -23,7 +26,6 @@
   grid-auto-rows: min-content;
   grid-gap: 25px;
   width: 100%;
-  background-color: #f9f9f9;
   overflow: auto;
 }
 
@@ -36,4 +38,12 @@
   width: 100%;
   object-fit: contain;
   pointer-events: none;
+  margin-bottom: 10px;
+}
+
+.user-icon {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
