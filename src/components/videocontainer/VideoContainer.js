@@ -17,7 +17,7 @@ function VideoContainer() {
               Descrição
             </Typography>
             </div>
-          </div> 
+          </div>
         </div>
       )
     }
@@ -29,7 +29,7 @@ function VideoContainer() {
           <img src={thumbnail_covid} className="video-thumbnail" alt="logo" />
           <div style={{display: 'flex'}}>
             <img src={user} className="user-icon" alt="logo" />
-            <div style={{display: 'block'}}>
+            <div>
             <Typography variant="button" display="block" gutterBottom>
               Titulo
             </Typography>
@@ -37,7 +37,7 @@ function VideoContainer() {
               Descrição
             </Typography>
             </div>
-          </div> 
+          </div>
         </div>
         )
       }

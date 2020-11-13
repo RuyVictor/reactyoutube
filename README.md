@@ -1,7 +1,8 @@
 # React YouTube
 
 Clonagem da página principal do YouTube.
-> "O principal motivo deste projeto foi pela aprimoração de meus conhecimentos na construções de Layout, na qual, o mesmo foi repensado para futuras alterações, permitindo então a escalabilidade, por ventura na atribuição de novos componentes e bibliotecas."
+> "Motivo: Pela aprimoração de meus conhecimentos em ReactJS e Javascript para construções de Layout.
+Objetivo: O mesmo foi repensado para futuras alterações, permitindo então a escalabilidade, por ventura na atribuição de novos componentes e bibliotecas."
 
 ![](https://img.shields.io/github/stars/RuyVictor/reactyoutube) ![](https://img.shields.io/github/repo-size/RuyVictor/reactyoutube) ![](https://img.shields.io/github/contributors/RuyVictor/reactyoutube)
 
@@ -11,6 +12,7 @@ Clonagem da página principal do YouTube.
 ### Uso:
 ```
 $ cd reactyoutube
+$ npm install
 $ npm start
 ```
 

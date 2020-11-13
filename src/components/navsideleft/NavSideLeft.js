@@ -25,7 +25,7 @@ const listItems = navItems.map((item) =>
     className="nav-button"
     color="primary"
     disableRipple
-    style={{ borderRadius: 0, width: 70, height: 70, textTransform: 'none' }}
+    style={{ borderRadius: 0, width: 72, height: 72, textTransform: 'none' }}
     >
       <div>
         {item.icon}
