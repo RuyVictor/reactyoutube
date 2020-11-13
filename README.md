@@ -16,7 +16,7 @@ $ npm start
 
 ### Tecnologias:
 
-| Bibliotecas | Links |
+| Managers e Bibliotecas | Links |
 | ------ | ------ |
 | NodeJS | https://nodejs.org/en/ |
 | Material-UI | https://material-ui.com/pt/ |
